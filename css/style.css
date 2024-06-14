@@ -542,7 +542,7 @@ textarea {
 
 @media (max-width: 600px){
   .title {
-    margin-top: 250px;
+    margin-top: 260px;
   }
   ul.social-links {
     font-size: 20px;
@@ -734,7 +734,7 @@ textarea {
   transform: scale(1);
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .social-icons {
     width: 30px;
     height: 30px;
@@ -765,4 +765,4 @@ textarea {
   .navbar-collapse li {
     float: none;
     display: inline;
-  }
+  } */

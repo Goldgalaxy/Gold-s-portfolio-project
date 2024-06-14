@@ -27,7 +27,7 @@ Navigate through the different sections to learn more about my skills, view my p
 If you want to contribute to this project, please fork the repository and submit a pull request.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the HTT License.
 
 ## Contact
 You can reach me at [goldgalaxy.ben58@gmail.com](mailto:goldgalaxy.ben58@gmail.com).
