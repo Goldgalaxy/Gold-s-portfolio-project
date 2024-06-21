@@ -109,7 +109,7 @@ blockquote {
   padding-right: 0;
 }
 .title {
-  margin-top: 60px;
+  margin-top: 100px;
 }
 
 /* Layout
@@ -542,7 +542,7 @@ textarea {
 
 @media (max-width: 600px){
   .title {
-    margin-top: 190px;
+    margin-top: 65px;
   }
   ul.social-links {
     font-size: 20px;
@@ -553,10 +553,7 @@ textarea {
 }
 }
 
-/* @media (max-width: 990px){
-.title {
-  margin-top: 99px;}
-} */ */
+
 
 /* Blocks/Widgets
 ----------------------------------------------------------------------------- */
@@ -737,13 +734,47 @@ textarea {
   -webkit-transform: scale(1);
   transform: scale(1);
 }
-@media (max-width: 600px)(min-width: 300px) {
+@media (max-width: 600px),(min-width: 300px) {
+  .header {
+    padding: 10px 0;
+  }
+  
+  @media (max-width: 767px) {
+    .header {
+      padding: 5px 0;
+    }
+  
+    .navbar-header {
+      display: flex;
+      align-items: center;
+    }
+  
+    .navbar-toggle {
+      margin-right: 0;
+    }
+  
+    .navbar-collapse {
+      background: rgb(0, 0, 0); /* Opaque background */
+    }
+  }
+  
+  /* header elements are aligned vertically */
+  .site-name-and-slogan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .navbar-header {
+    display: flex;
+    align-items: center;
+  }
   /* .social-icons {
     width: 30px;
     height: 30px;
   } */
 
-  .header-left {
+  /* .header-left {
     text-align: center;
     margin-bottom: 20px;
     display: flex;
@@ -772,7 +803,7 @@ textarea {
   }
 }
 /* Prevent navbar from collapsing on mobile */
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .navbar-collapse {
     display: flex !important;
     visibility: visible !important;
@@ -797,6 +828,5 @@ textarea {
 
   .navbar-toggle {
     display: none !important;
-  }
+  }  */
 }
-</style>
