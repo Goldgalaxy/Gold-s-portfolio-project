@@ -750,6 +750,7 @@ textarea {
     }
   
     .navbar-toggle {
+      margin-left: auto;     /* moved hamburger to the right */
       margin-right: 0;
     }
   
